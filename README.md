@@ -13,3 +13,4 @@ This simple Chrome extension removes the random, usually low quality, review tha
 3. Uncompress the ZIP.
 4. Visit chrome://extensions/ or click the extensions icon and then Manage Extensions in the dropdown.
 5. Click 'Load unpacked' and point to the unzipped directory.
+6. Reload Audible.
