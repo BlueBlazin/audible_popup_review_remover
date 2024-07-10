@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Audible Review Remover",
+  "version": "1.0",
+  "description": "Remove the random review shown in the popup when hovering on titles.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://audible.com/*",
+        "*://www.audible.com/*",
+        "*://www.audible.ca/*",
+        "*://www.audible.co.uk/*",
+        "*://www.audible.com.au/*",
+        "*://www.audible.fr/*",
+        "*://www.audible.de/*",
+        "*://www.audible.co.jp/*",
+        "*://www.audible.it/*",
+        "*://www.audible.in/*",
+        "*://www.audible.es/*",
+        "*://www.audible.com.br/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
